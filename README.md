@@ -7,7 +7,7 @@ análisis de videos de vigilancia o integrado como parte de las medidas de segur
 
 Utilizamos la librería de OpenCV ya que esta cuenta con un modelo pre entrenado para la detección de personas en imágenes.
 
-Es necesario instalar esta librería para habilitar su funcionamiento: pip install opencv-python
+Es necesario instalar esta librería para habilitar su funcionamiento: pip install opencv-python.
 También utilizamos la librería imutils para reescalar las imágenes extraídas del video, ya que es necesario reducir su tamaño para mejorar el 
 rendimiento del proceso de análisis.
 
