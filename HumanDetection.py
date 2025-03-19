@@ -46,6 +46,7 @@ while cap.isOpened():
 
         # Mostrar las imágenes
         cv2.imshow("Image", image)
+        # Presionar q para cerrar análisis
         if cv2.waitKey(25) & 0xFF == ord('q'):
             break
     else:
